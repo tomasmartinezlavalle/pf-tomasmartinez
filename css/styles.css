@@ -1,29 +1,74 @@
+@charset "UTF-8";
 h2 {
   color: 0;
 }
 
 #body-principal {
-  background-color: #333;
+  color: #074750;
+  background-color: #a5edf7;
 }
 
 #parrafo {
-  color: rgb(24, 73, 92);
+  color: rgb(49, 178, 230);
 }
 
 #body-historia {
-  color: #333;
+  background-color: #a5edf7;
 }
 
 #title {
-  color: rgb(24, 73, 92);
-}
-
-#navbar {
-  background-color: rgb(24, 73, 92);
+  color: rgb(52, 178, 228);
+  text-decoration: underline;
 }
 
 #cilindro {
   text-decoration: overline;
+  color: rgb(52, 178, 228);
+}
+
+/* Estilos para la grilla */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Crea 3 columnas de igual tamaño */
+  gap: 10px; /* Espacio entre los cuadros */
+}
+
+.grid-item {
+  height: auto;
+  background-color: #f0f0f0;
+  text-align: center;
+  line-height: 100px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+  color: #F0F0F0;
+}
+
+#body-indu {
+  background-color: #a5edf7;
+}
+
+button {
+  background-color: #126874;
+  color: #fff;
+  padding: 5px 45px;
+  font-size: 16px;
+  border: none;
+}
+
+button:hover {
+  background-color: #3dacbb;
+}
+
+#hist {
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
