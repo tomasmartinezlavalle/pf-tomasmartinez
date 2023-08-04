@@ -6,13 +6,13 @@ color:  (#074750);
 background-color: #a5edf7;
 } 
 #parrafo{
-    color: rgb(49, 178, 230);
+    color: rgb(0, 0, 0);
 }
 #body-historia{
     background-color:  (#a5edf7);
 }
 #title{
- color: rgb(52, 178, 228);
+ color: rgb(0, 0, 0);
  text-decoration: underline;
 }
 
@@ -43,6 +43,7 @@ footer {
 }
 body{
     color:  (#F0F0F0);
+    
 }
 #body-indu{
     background-color: #a5edf7;
@@ -51,7 +52,7 @@ button{
     background-color: #126874; 
     color: #fff; 
     padding: 5px 45px; 
-    font-size: 16px; 
+    font-size: 16px;  
     border: none;
   
 }
@@ -62,3 +63,84 @@ button:hover{
     text-align: center;
 
 }
+#tienda{
+    text-decoration: overline;
+}
+/* estilos.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    flex: 1;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+body {
+    background-image: url("../img/backgroung\ img\ \(1\).webp");
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+  }
+

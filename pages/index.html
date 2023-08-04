@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Racing Club</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head >
+
+  <body id="body-principal">
+    <div>
+    <header >
+
+<!-- navbar -->
+
+
+       <nav class="navbar navbar-expand-lg bg-body-tertiary container-fluid ">
+        <div class="container-fluid">
+          <a class="navbar-brand text-info-emphasis" href="./index.html"> 
+            Racing Club</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-info-emphasis" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-info-emphasis" href="./trofeos.html">Trofeos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-info-emphasis" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Indumentaria
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-info-emphasis" href="./remeras.html">Remeras</a></li>
+                  <li><a class="dropdown-item text-info-emphasis" href="./pantalones.html">Pantalones</a></li>
+                  <li><hr class="dropdown-divider text-info-emphasis"></li>
+                  <li><a class="dropdown-item text-info-emphasis" href="./buzos.html">Buzos/Camperas</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-info-emphasis">Socios</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="buscar">
+              <input class="form-control me-2" type="buscar" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success text-info-emphasis" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- fin navbar -->
+
+    </header>
+    <main>
+      <div class="container">
+        <h1>Asociate ya! <br> Al club mas lindo del mundo</h1>
+        <form id="formulario">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                  <label for="nombre">Documento:</label>
+                  <input type="text" id="nombre" name="nombre" required>
+              </div>
+
+              <div class="form-group">
+                  <label for="email">N de telefono:</label>
+                  <input type="email" id="email" name="email" required>
+              </div>
+          </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="intereses">Metodo de pago:</label>
+                    <textarea id="intereses" name="intereses" required></textarea>
+                </div>
+            </div>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <br>
+        <div class="container text-center ">
+
+            <div class="row row-cols-auto">
+
+              <div class="col-3"> <img src="../img/Estadio.webp" class="img-fluid" alt="Estadio"></div>
+              <div class="col-9 p-2 text-center "> <p class="text-info-emphasis"> <h2 id="cilindro" class="fs-4 ">CILINDRO MAGICO DE AVELLANEDA:</h2> El estadio Presidente Peron conocido popularmente como cilindro magico de avellaneda y el coliseo es nuestro estadio ubicado en avellaneda. esta situado sobre los pasajes mozart y corbatta siendo lidiante con las calles colon y Diego Milito. 
+            Este estadio fue diseñado por ingenieros alemanes en el año 1950 especificamente el 3 de septiembre, El estadio en su momento tuvo un costo de 11 millones de pesos argentinos. El estadio mas lindo de Argentina cuenta con la capacidad para 55 mil personas. Y una particularidad de nuestro estadio es que fue el primero en tener toda la totalidad de las plateas techadas </p></div>
+            <!-- carousel -->
+            
+            <div id="carouselExample" class="carousel slide container-fluid">
+                <div class="carousel-inner"> 
+                  <div class="carousel-item active">
+                    <img src="../img/estadio carousel.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/barra.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/partido.webp" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!-- fin carousel -->
+
+            </div>
+          </div>
+          <h3 class=" container text-sm-start text-info-emphasis">Racing Club de Avellaneda, El Primer grande</h3>
+          <p class="container ">La zona en la que se dieron los primeros pasos de la historia de Racing aún no era Avellaneda, sino que el territorio lindante con el Riachuelo se conocía como Barracas al Sur. Un grupo de empleados del Ferrocarril Sud les solicitó a las autoridades la cesión de unos terrenos para jugar allí al fútbol en los descansos. La respuesta afirmativa abrió el camino para demarcar la cancha y comenzar con los primeros desafíos, preferentemente ante equipos con mejores valores (generalmente ingleses), con el fin de enriquecerse a partir de estos enfrentamientos.En 1898, los empleados que se juntaban para disputar esos cotejos amistosos decidieron agruparse formalmente en un club de fútbol, que se llamó Argentinos Excelsior Club. Duró tres años y en 1901 dio paso a la creación de otras tres entidades: Sud América Fútbol Club de Barracas al Sur, American Club y Argentinos Unidos. Rápidamente, Barracas al Sud se destacó del resto.
+
+            Barracas al Sud se transformó en un club organizado a partir del 12 de mayo de 1901, pero los cortocircuitos entre los integrantes del grupo provocaron una pronta ruptura y la creación, el 16 de marzo de 1902, de Colorados Unidos. El 25 de marzo de 2003, ambos bandos se convocaron a un encuentro definitivo. Se reunieron en el Mercado de Hacienda y decidieron fusionarse nuevamente. Había que encontrar un nombre distinto y la propuesta que más impactó fue la de Germán Vidaillac, quien solía leer publicaciones de origen francés y tenía una revista cuyo nombre era Racing Club.
+            
+            La primera camiseta de la institución fue de color blanca para abaratar costos. Luego se diseñó una a bastones amarillos y negros, pero su similitud con la camiseta del Peñarol uruguayo incentivó su cambio luego de sólo una semana de su debut con estos colores. La segunda camiseta era celeste y rosa a cuadros y se utilizó hasta 1910. Ese mismo año se optó por la actual camiseta que fue hecha en honor al centenario de la Primera Junta con los colores de la bandera de Argentina, por ser el primer equipo argentino fundado íntegramente por criollos.
+            
+            El primer partido, si bien no está confirmado oficialmente, habría sido en una cancha que estaba donde hoy se encuentra la Sociedad Rural y Racing le habría ganado 2 a 1 a Royal. Del que sí hay registro oficial en los diarios es el 16 a 0 a Plata United del 31 de mayo de 1903.
+            
+            Futbolísticamente, lo mejor empezó en 1905, cuando Racing se afilió a la Argentine Football Association y comenzó a participar del torneo de ascenso. Durante los años del amateurismo era normal que los mismos futbolistas fueran a la vez los dirigentes. Así que se comenzó con un proceso de adaptación lógico, que llevó su tiempo. Para entonces, Arturo Artola le había dejado la conducción a Pedro Werner, que fue presidente entre 1904 y 1908.
+            
+            Del almacén de Mitre y Mariano Acosta, Racing pasó a efectuar sus sesiones en un nuevo lugar, situado a pocos metros, en Belgrano y Mariano Acosta. Mientras duraron los años del ascenso, Racing institución aprovechó para consolidarse. En 1908 se llegó a la primera final por un lugar en la máxima categoría. En 1909 se volvió a alcanzar las instancias finales, pero fue Gimnasia el que se quedó con el título. Hasta que en 1910, Racing consiguió su lugar en la categoría máxima del fútbol ganándole la final a Boca.
+            
+            La popularidad de Racing aumentó con el título de la Segunda división. La dirigencia empezó a buscar nuevos horizontes para afrontar con grandeza el desafío de participar en la primera A. En 1912 fue el año del primer choque a nivel internacional frente al River de Montevideo.
+            
+            En 1913 empezaría un ciclo brillante de Racing en el fútbol argentino, que le daría nacimiento a La Academia. El conjunto de Avellaneda se convertiría en el primer gran equipo puramente criollo y sumaría siete campeonatos consecutivos. También se quedó con la Copa de Honor en 1913 ante Nacional, de Montevideo; en 1913, 1914, 1916, 1917 y 1918 ganó la Ibarguren, y la Aldao la consiguió en 1917 y 1918.
+            
+            Durante este fabuloso período, además, en 1915, el club escrituró los terrenos donde hoy se encuentra la sede de la avenida Mitre, mientras que el 4 de junio Racing recibió la personería jurídica, anhelada durante muchos años por quienes le habían dado forma al sueño de la Academia. En resumen, los primeros pasos de uno de los cinco grandes del fútbol argentino.
+            
+            </p>
+            <div class="d-flex justify-content-center">
+              <button id="hist" class="">SI QUERES SABER MAS <br>HAZ CLICK AQUI</button>
+            </div>
+
+    </main>
+
+    <footer>
+      <p>Derechos de autor &copy; 2023 - Mi página web. Todos los derechos reservados.</p>
+    </footer>
+    
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
